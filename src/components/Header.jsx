@@ -3,6 +3,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import { TypeAnimation } from 'react-type-animation';
+import vid from "../assets/pexels_videos_2611250 (2160p).mp4"
 
 const Header = () => {
     return (
@@ -14,7 +15,7 @@ const Header = () => {
             /> */}
            <video autoPlay muted loop className="header-background">
             <source
-                src="src/assets/pexels_videos_2611250 (2160p).mp4"
+                src={vid}
                 type="video/mp4"
             />
             </video>

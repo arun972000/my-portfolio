@@ -1,30 +1,44 @@
 import { Card, Container,Row,Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./skills.css"
+import htmllogo from "../assets/HTML5_Logo_512.png"
+import css from '../assets/css_original_wordmark_logo_icon_146576.png'
+import js from "../assets/java-script.png"
+import react from '../assets/react-3-512.png'
+import redux from '../assets/pngwing.com (1).png'
+import boot from "../assets/bootstrap_plain_wordmark_logo_icon_146620.png"
+import node from '../assets/nodejs_plain_wordmark_logo_icon_146410.png'
+import mongo from '../assets/mongodb_plain_wordmark_logo_icon_146423.png'
+import aws from "../assets/Aws-Logo-PNG-Pic.png"
+import ps from '../assets/pngwing.com.png'
+import ai from '../assets/Adobe_Illustrator_CC_icon.svg.png'
+import xd from "../assets/adobe-xd.svg"
+import figma from "../assets/apps-figma.svg"
+
 
 const SkillsComponent = () => {
   const frontendSkills = [
-    { icon: 'src/assets/HTML5_Logo_512.png', color:"#e34c26", name: 'HTML' },
-    { icon: 'src/assets/css_original_wordmark_logo_icon_146576.png', color:"#264de4", name: 'CSS' },
-    { icon:"src/assets/java-script.png", color:"#f0db4f", name: 'Javascript' },
-    { icon: 'src/assets/react-3-512.png',color:"#61DBFB", name: 'React' },
-    { icon: 'src/assets/pngwing.com (1).png', color:"#764abc", name: 'Redux' },
-    { icon:"src/assets/bootstrap_plain_wordmark_logo_icon_146620.png",color:"#563d7c", name: 'Bootstrap' },
+    { icon: htmllogo, color:"#e34c26", name: 'HTML' },
+    { icon: css, color:"#264de4", name: 'CSS' },
+    { icon: js, color:"#f0db4f", name: 'Javascript' },
+    { icon: react ,color:"#61DBFB", name: 'React' },
+    { icon: redux, color:"#764abc", name: 'Redux' },
+    { icon:boot,color:"#563d7c", name: 'Bootstrap' },
     
   ];
 
   const backendSkills = [
-    { icon: 'src/assets/nodejs_plain_wordmark_logo_icon_146410.png', color:"#68a063", name: 'Nodejs' },
-    { icon: 'src/assets/mongodb_plain_wordmark_logo_icon_146423.png', color:"#3c873a", name: 'MongoDB' },
-    { icon:"src/assets/Aws-Logo-PNG-Pic.png", color:"#FF9900", name: 'AWS' },
+    { icon: node, color:"#68a063", name: 'Nodejs' },
+    { icon: mongo, color:"#3c873a", name: 'MongoDB' },
+    { icon:aws, color:"#FF9900", name: 'AWS' },
     
   ];
 
   const designSkills = [
-    { icon: 'src/assets/pngwing.com.png', color:"#4FCCFE", name: 'Adobe Photoshop' },
-    { icon: 'src/assets/Adobe_Illustrator_CC_icon.svg.png', color:"#f8a829", name: 'Adobe Illustrator' },
-    { icon:"src/assets/adobe-xd.svg", color:"#8f34c4", name: 'Adobe XD' },
-    { icon:"src/assets/apps-figma.svg", color:"black", name: 'Figma' },
+    { icon: ps, color:"#4FCCFE", name: 'Adobe Photoshop' },
+    { icon: ai, color:"#f8a829", name: 'Adobe Illustrator' },
+    { icon:xd, color:"#8f34c4", name: 'Adobe XD' },
+    { icon:figma, color:"black", name: 'Figma' },
     
   ];
   return (
