@@ -2,7 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import ic from "../assets/icons8-a-50.png"
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function DarkNav() {
@@ -14,7 +14,7 @@ function DarkNav() {
         <Navbar key={expand} expand={expand} bg="transparent" data-bs-theme="dark" >
           <Container fluid>
             <Navbar.Brand>  <img
-              src="src/assets/icons8-a-50.png"
+              src={ic}
               width="30"
               height="30"
               className="d-inline-block align-top"
