@@ -35,7 +35,7 @@ const AboutMe = () => {
                             <span className="work-experience-key">'2022-now':</span>
                             <span className="work-experience-value">'E-Learning Developer at Edufic Digital'</span>
                         </div>
-                        <div className="work-experience-ite common-hover-classm">
+                        <div className="work-experience-item common-hover-class">
                             <span className="work-experience-key">'2021(2Months)':</span>
                             <span className="work-experience-value">'Video Editor(Intern) at TFS'</span>
                         </div>
