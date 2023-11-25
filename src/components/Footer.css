@@ -1,0 +1,13 @@
+.footer-container {
+    background-color: #f8f9fa; /* Set your desired background color */
+    padding: 10px 0;
+  }
+  
+  .footer-hr {
+    border-color: #343a40; /* Set your desired horizontal line color */
+  }
+  
+  .footer-text {
+    color: #343a40; /* Set your desired text color */
+    font-size: 14px;
+  }

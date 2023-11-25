@@ -1,0 +1,26 @@
+@keyframes moveLeftToRight {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  
+  
+  .cropped {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 1575px; /* Adjust top position as needed */
+    left: -100%;
+    animation: moveLeftToRight 7s linear infinite; /* Adjust the animation duration as needed */
+    z-index: -1;
+  }
+
+  @media (max-width: 767px) {
+    .cropped {
+      top: 2790px; /* Adjust the top position for phones */
+    }
+  }

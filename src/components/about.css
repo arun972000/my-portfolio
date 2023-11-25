@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+
+.about-me-container {
+    margin-top: 20px;
+    background-color: #14121c;
+    font-size: 1rem;
+  }
+
+  .class-declaration,
+  .command-line,
+.constructor,
+.property,
+.method,
+.work-experience-key,
+.work-experience-value,
+.education-key,
+.education-value,
+.skills-value,
+.myname {
+  letter-spacing: 2px; /* Adjust the value as needed */
+}
+
+  .myname{
+    color:#eeff31
+  }
+  
+  .javascript-code {
+    font-family: 'Roboto', sans-serif;
+    
+    
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .class-declaration {
+    color:#5918df;
+  }
+  
+  .constructor {
+    margin-left: 20px;
+  }
+  
+  .method {
+    color: #5918df;
+  }
+  
+  .property {
+    margin-left: 40px;
+  }
+  
+  .prop-name {
+    color: #6f42c1;
+  }
+  
+  .string {
+    color: #0774f0;
+  }
+  
+  .number {
+    color: #ffffff;
+  }
+  
+  .method-end {
+    margin-left: 20px;
+    color:white
+  }
+  
+  .sym{
+    color:white
+  }
+  
+  .education-item,
+  .work-experience-item {
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 5px;
+  }
+  .education-key,
+  .work-experience-key {
+    color: #d73a49; /* Key color */
+    margin-right: 5px;
+  }
+  .education-value,
+  .work-experience-value {
+    color: #24e33a; /* Value color */
+  }
+
+  .skill {
+    color: #d73a49; /* Skill text color */
+    background-color: #f8f9fa; /* Skill background color */
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .command-line {
+    
+    
+    color: #525452; /* Green text */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .command-line div {
+    margin-bottom: 5px;
+  }
+  
+
+
+
+  .common-hover-class:hover {
+    background-color:rgba(221, 221, 221, 0.3); /* Change to the desired hover color */
+  }
+

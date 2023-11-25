@@ -1,0 +1,25 @@
+/* HeaderComponent.css */
+.header-container {
+    position: relative;
+    text-align: center;
+    height: 70vh; /* Set height to 100% of the viewport height */
+  }
+  
+  .header-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    position: absolute; /* or 'absolute' based on your preference */
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
