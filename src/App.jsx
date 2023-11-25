@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Main from './components/myPort'
 import DarkNav from './components/Navbar'
 import SkillsComponent from './components/Skills'
+import amongUs from "./assets/its-not-me.gif"
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Main />
       <SkillsComponent />
       <AboutMe />
-      <img className="cropped" src="src/assets/its-not-me.gif" />
+      <img className="cropped" src={amongUs} />
       
       <Footer />
     </>
