@@ -28,7 +28,7 @@ function DarkNav() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Portfolio
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

@@ -8,11 +8,7 @@ import vid from "../assets/pexels_videos_2611250 (2160p).mp4"
 const Header = () => {
     return (
         <header className="header-container mb-5">
-            {/* <img
-                src="src/assets/bg.87635d9.webp"
-                alt="Header Background"
-                className="header-background"
-            /> */}
+           
            <video autoPlay muted loop className="header-background">
             <source
                 src={vid}
