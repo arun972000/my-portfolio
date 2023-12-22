@@ -9,12 +9,12 @@ const ProjectLinksModal = ({ show, onHide }) => {
         <Modal.Title>Full Stack Projects</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h5>1. Markdown Viewer(Work in Progress)</h5>
+        <h5>1. Markdown Viewer</h5>
         <p>
           A simple Markdown Viewer project that allows users to input and preview Markdown content.
           It provides a clean interface for viewing formatted text with live updates.
         </p>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://astounding-haupia-9b9a7e.netlify.app/" target="_blank" rel="noopener noreferrer">
           Markdown Viewer Link
         </a>
 
